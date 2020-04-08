@@ -11,13 +11,18 @@ agriculture robots. Specifcially, to address the occassions where GPS are not re
 Velodyne's VLP-16, which was mounted on a mobile agriculture robot. The dataset is not  
 shared in this repo because the author does not own them.
 
-## Quantitative Results
-This work was implemented with 150 training images (augmented to 1050). As a result: with   
-50 test images, an average of 78% intersection over union performance has been achieved.  
-Also, 48 out of 50 tests were passed with the definition of success being:   
-* the orientation of prediction-line and human-annotated-line is no different than 3 degrees 
-* the RMS distance between two end-points of human-annotated-line and prediction-line   
-  are less than 0.5 meters.
+## Input of Unet
+This work was implemented with 150 training images (augmented to 1050). The model takes  
+2-channel inputs of range images: 
+*relative distance of a point to the center of LIDAR
+*intensity capture by LIDAR
+
+Note that in this work a limited horizontal filed of view [-180, 180] is considered.
+
+# Example output
+<br/>Output of UNet trained on 150 range images 
+<br/>(left: input image, middle: ground truth, right: prediction)
+![defects](assets/defects.png)
 
 ## Run with Visualization
   
