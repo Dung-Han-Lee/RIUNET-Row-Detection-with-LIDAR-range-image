@@ -11,6 +11,8 @@ agriculture robots. Specifcially, to address the occassions where GPS are not re
 Velodyne's VLP-16, which was mounted on a mobile agriculture robot. The dataset is not  
 shared in this repo because the author does not own them.
 
+[![Output sample](https://media.giphy.com/media/eLYGNWrgJ6e2T2CZNv/giphy.gif)]
+
 ## Input of Unet
 This work was implemented with 150 training images (augmented to 1050). The model takes  
 2-channel inputs of range images:   
