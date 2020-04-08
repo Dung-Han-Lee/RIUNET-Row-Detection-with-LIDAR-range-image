@@ -14,6 +14,7 @@ shared in this repo because the author does not own them.
 ## Input of Unet
 This work was implemented with 150 training images (augmented to 1050). The model takes  
 2-channel inputs of range images: 
+
 *relative distance of a point to the center of LIDAR
 *intensity capture by LIDAR
 
