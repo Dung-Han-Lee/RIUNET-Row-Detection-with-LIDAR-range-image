@@ -56,4 +56,4 @@ The network was mostly trained on collected data which mostly face forward, with
 lying in the center. The behavior when the vehicle has different orientation is unclear.  
 It is observed, though, at entrance and exit of a row, the model does deterioate in terms  
 of performance. Such limitation may be able to be overcomed with more training data.
-  <img src="./assets/sample_output.png" width="400" height="200">
+  <img src="./assets/sample_output.png" width="600" height="200">
