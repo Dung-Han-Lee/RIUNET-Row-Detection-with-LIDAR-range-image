@@ -52,7 +52,7 @@ UNet paper was developed and adopted to penalize loss more on pixels near bounda
    <img src="./assets/tricks.png" width="400" height="200">
 
 ## Limitations
-The network was mostly trained data facing forward, with vehicle standing in the center. 
+The network was mostly trained data facing forward, with vehicle standing in the center.  
 The behavior when the vehicle has different orientation is unclear.  It is observed,  
 though, at entrance and exit of a row, the model does deterioate in terms  
 of performance. Such limitation may be able to be overcomed with more training data.
