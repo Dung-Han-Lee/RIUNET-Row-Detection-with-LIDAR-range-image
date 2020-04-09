@@ -50,3 +50,10 @@ to (2,4) after first layer.
 UNet paper was developed and adopted to penalize loss more on pixels near boundaries.
 
    <img src="./assets/tricks.png" width="400" height="200">
+
+## Limitations
+The network was mostly trained on collected data which mostly face forward, with vehicle  
+lying in the center. The behavior when the vehicle has different orientation is unclear.  
+It is observed, though, at entrance and exit of a row, the model does deterioate in terms  
+of performance. Such limitation may be able to be overcomed with more training data.
+  <img src="./assets/sample_output.png" width="400" height="200">
