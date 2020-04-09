@@ -24,7 +24,8 @@ view [-180, 180] is considered.
 
 
 ## Example output
-first row: output from network | second row: deprojection into topview(sensor frame)
+first row : output from network  
+second row: deprojection into topview (sensor frame)
 <img src="./assets/sample_output1.png" width="600" height="200">
 
 ## Tricks to Improve Performance
