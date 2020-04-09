@@ -13,6 +13,18 @@ shared in this repo because the author does not own them.
 
 [![Output sample](https://media.giphy.com/media/Xc4jD53oAicsWUtoZc/giphy.gif)](https://youtu.be/DEsyPNqfU5k)
 
+
+## Run with Visualization
+  
+  * single model  
+  
+         python3 inference.py --m ./weight/unet.pth --show "all"
+    
+  * multiple model
+  
+         python3 inference.py --m ./weight/*.pth --show "all"
+
+
 ## Input of Unet
 This work was implemented with 150 training images (augmented to 1050). The model takes  
 2-channel inputs of range images (64x512):   
@@ -38,13 +50,3 @@ to (2,4) after first layer.
 UNet paper was developed and adopted to penalize loss more on pixels near boundaries.
 
    <img src="./assets/tricks.png" width="400" height="200">
-
-## Run with Visualization
-  
-  * single model  
-  
-         python3 inference.py --m ./weight/unet.pth --show "all"
-    
-  * multiple model
-  
-         python3 inference.py --m ./weight/*.pth --show "all"
