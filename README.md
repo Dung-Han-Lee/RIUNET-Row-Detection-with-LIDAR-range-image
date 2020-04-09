@@ -41,10 +41,10 @@ UNet paper was developed and adopted to penalize loss more on pixels near bounda
 
 ## Run with Visualization
   
-  *single model
+  * single model
   
     python3 inference.py --m ./weight/unet.pth --show "all"
     
-  *multiple model
+  * multiple model
   
     python3 inference.py --m ./weight/*.pth --show "all"
