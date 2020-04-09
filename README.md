@@ -25,7 +25,7 @@ This work was implemented with 150 training images (augmented to 1050). The mode
 Note that in this work a limited horizontal filed of view [-180, 180] is considered.
 
 ## Example output
-<br/>(first row: output from network | second row: deprojection into topview(sensor frame))
+<br/>first row: output from network | second row: deprojection into topview(sensor frame)
 <img src="./assets/sample_output1.png" width="600" height="200">
 ## Run with Visualization
   
