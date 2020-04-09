@@ -26,8 +26,7 @@ Note that in this work a limited horizontal filed of view [-180, 180] is conside
 
 ## Example output
 <br/>(first row: output from network | second row: deprojection into topview(sensor frame))
-![sample out](assets/sample_output1.png)
-<img src="./assets/sample_output1.png" width="300" height="300">
+<img src="./assets/sample_output1.png" width="500" height="400">
 ## Run with Visualization
   
   *single model
