@@ -9,7 +9,8 @@ The purpose of this work is to enable autonomous, visual-based in-row navigation
 agriculture robots. Specifcially, to address the occassions where GPS are not reliable  
  or not accurate enough. The training data were collected from a vineyard field using  
 Velodyne's VLP-16, which was mounted on a mobile agriculture robot. The dataset is not  
-shared in this repo because the author does not own them.
+shared in this repo because the author does not own them.  
+
 [![Output sample](https://media.giphy.com/media/Xc4jD53oAicsWUtoZc/giphy.gif)](https://youtu.be/DEsyPNqfU5k)
 
 ## Input of Unet
