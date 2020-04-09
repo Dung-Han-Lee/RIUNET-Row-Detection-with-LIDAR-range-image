@@ -37,7 +37,7 @@ to (2,4) after first layer.
 * To improve prediction and get a clear-cut boundary, weighted mask similiar to that of oringal  
 UNet paper was developed and adopted to penalize loss more on pixels near boundaries.
 
-<img src="./assets/tricks.png" width="400" height="200">
+   <img src="./assets/tricks.png" width="400" height="200">
 
 ## Run with Visualization
   
