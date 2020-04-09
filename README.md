@@ -15,16 +15,29 @@ shared in this repo because the author does not own them.
 
 ## Input of Unet
 This work was implemented with 150 training images (augmented to 1050). The model takes  
-2-channel inputs of range images:   
+2-channel inputs of range images (64x512):   
 * relative distance of a point to the center of LIDAR  
 * intensity capture by LIDAR
-Note that in this work a limited horizontal filed of view [-180, 180] is considered.
+Note that in this work a limited horizontal filed of   
+view [-180, 180] is considered.
 <img src="./assets/range_image.png" width="600" height="200">
 
 
 ## Example output
 first row: output from network | second row: deprojection into topview(sensor frame)
 <img src="./assets/sample_output1.png" width="600" height="200">
+
+## Tricks to Improve Performance
+* The data captured by VLP-16 originally corresponds to 16x512 image, which is too small  
+for convulution layers. Thus each beam was repeated 4 times without extrapolation to  
+make the image 64x512. 
+* Futhermore, since the image has a larger width then width, the maxpool kernel is adjusted  
+to (2,4) after first layer.
+* To improve prediction and get a clear-cut boundary, weighted mask similiar to that of oringal  
+UNet paper was developed and adopted to penalize loss more on pixels near boundaries.
+
+<img src="./assets/tricks.png" width="400" height="200">
+
 ## Run with Visualization
   
   *single model
