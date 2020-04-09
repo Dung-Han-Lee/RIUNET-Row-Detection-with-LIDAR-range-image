@@ -10,20 +10,16 @@ agriculture robots. Specifcially, to address the occassions where GPS are not re
  or not accurate enough. The training data were collected from a vineyard field using  
 Velodyne's VLP-16, which was mounted on a mobile agriculture robot. The dataset is not  
 shared in this repo because the author does not own them.
-
-</br> click image for demo video  
 [![Output sample](https://media.giphy.com/media/Xc4jD53oAicsWUtoZc/giphy.gif)](https://youtu.be/DEsyPNqfU5k)
 
 ## Input of Unet
 This work was implemented with 150 training images (augmented to 1050). The model takes  
 2-channel inputs of range images:   
-
-
 * relative distance of a point to the center of LIDAR  
-
 * intensity capture by LIDAR
-
 Note that in this work a limited horizontal filed of view [-180, 180] is considered.
+<img src="./assets/range_image.png" width="600" height="200">
+
 
 ## Example output
 first row: output from network | second row: deprojection into topview(sensor frame)
