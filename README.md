@@ -24,9 +24,7 @@ This work was implemented with 150 training images (augmented to 1050). The mode
 
 Note that in this work a limited horizontal filed of view [-180, 180] is considered.
 
-# Example output
-<br/>Output of UNet trained on 150 range images 
-<br/>(left: input image, middle: ground truth, right: prediction)
+## Example output
 ![sample out](assets/sample_output1.png)
 
 ## Run with Visualization
