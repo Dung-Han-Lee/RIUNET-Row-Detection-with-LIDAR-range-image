@@ -11,7 +11,7 @@ agriculture robots. Specifcially, to address the occassions where GPS are not re
 Velodyne's VLP-16, which was mounted on a mobile agriculture robot. The dataset is not  
 shared in this repo because the author does not own them.
 
-click image for demo video  
+</br> click image for demo video  
 [![Output sample](https://media.giphy.com/media/Xc4jD53oAicsWUtoZc/giphy.gif)](https://youtu.be/DEsyPNqfU5k)
 
 ## Input of Unet
