@@ -27,7 +27,7 @@ Note that in this work a limited horizontal filed of view [-180, 180] is conside
 # Example output
 <br/>Output of UNet trained on 150 range images 
 <br/>(left: input image, middle: ground truth, right: prediction)
-![defects](assets/defects.png)
+![sample out](assets/sample_output1.png)
 
 ## Run with Visualization
   
