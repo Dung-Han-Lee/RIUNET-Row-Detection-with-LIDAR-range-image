@@ -55,7 +55,8 @@ UNet paper was developed and adopted to penalize loss more on pixels near bounda
 
 ## Limitations
 The network was mostly trained data facing forward, with vehicle standing in the center.  
-The behavior when the vehicle has different orientation is unclear.  It is observed,  
-though, at entrance and exit of a row, the model does deterioate in terms  
+Thanks to the property of spherical coordination, a rotated pointcloud is simply equiva-
+lent to tranlated image which should pose no difference to convolutional netwroks. It   
+is observed, though, at entrance and exit of a row, the model does deterioate in terms  
 of performance. Such limitation may be able to be overcomed with more training data.
   <img src="./assets/sample_output.png" width="600" height="200">
