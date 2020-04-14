@@ -32,7 +32,8 @@ This work was implemented with 150 training images (augmented to 1050). The mode
 * intensity capture by LIDAR  
 
 Note that in this work a limited horizontal filed of   
-view [-180, 180] is considered.
+view [-180, 180] is considered.  
+
 <img src="./assets/range_image.png" width="600" height="200">
 
 
