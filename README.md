@@ -29,7 +29,8 @@ shared in this repo because the author does not own them.
 This work was implemented with 150 training images (augmented to 1050). The model takes  
 2-channel inputs of range images (64x512):   
 * relative distance of a point to the center of LIDAR  
-* intensity capture by LIDAR
+* intensity capture by LIDAR  
+
 Note that in this work a limited horizontal filed of   
 view [-180, 180] is considered.
 <img src="./assets/range_image.png" width="600" height="200">
